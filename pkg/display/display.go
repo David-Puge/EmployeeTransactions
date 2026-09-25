@@ -29,7 +29,7 @@ func Display(d Displayable) {
 // DisplayAll выводит на консоль всех сотрудников из среза
 func DisplayAll(e []Employee) {
 	for _, employee := range e {
-		employee.DisplayEmployee()
+		Display(employee)
 	}
 }
 
